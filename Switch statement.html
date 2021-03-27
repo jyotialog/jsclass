@@ -1,0 +1,32 @@
+	<!DOCTYPE html>
+<html>
+<head>
+	<title>Switch Statement</title>
+</head>
+<body>
+	<center>
+	<h1 style="color: green">We are learning Switch Statement</h1>
+</center>
+	<input type="number" id="a"><br>
+
+<button onclick="onOff(parseInt(document.getElementById('a').value))">Check</button>
+	<script type="text/javascript">
+		
+
+		function onOff(a) {
+			switch(a){
+				case 0:
+				console.log("off");
+				break;
+				case 1:
+				console.log("on");
+				break;
+				default:
+				console.log("Enter only 0 and 1");
+
+			}
+		}
+	</script>
+
+</body>
+</html>
