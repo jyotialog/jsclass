@@ -1,0 +1,73 @@
+	<html>
+<head>
+     <title>
+          Default Parameter Program
+     </title>
+</head>
+<body>
+<script>
+ function add(a,b,c=10){          // Default Parameter
+document.write("A= " +a+ "<br>");
+document.write("B= " +b+ "<br>");
+document.write("C= " +c+ "<br>");
+}
+add(70,80,410);
+//Default Parameter
+</script><br><br>
+
+
+<script>
+function add(x=1,y=5,z=0){        
+document.write("X= " +x+ "<br>");
+document.write("Y= " +y+ "<br>");
+document.write("Z= " +z+ "<br>");
+}
+add(200,300);
+</script><br><br>
+
+
+<script>
+function add(p,q,r=null){          // Default Parameter
+document.write("P= " +p+ "<br>");
+document.write("Q= " +q+ "<br>");
+document.write("R= " +r+ "<br>");
+}
+add( 250,350);
+
+</script><br><br>
+
+<script>
+
+function add(i=2.4,j,k){          // Default Parameter
+document.write("I= " +i+ "<br>");
+document.write("J= " +j+ "<br>");
+document.write("K= " +k+ "<br>");
+}
+add(2,3);
+
+
+
+
+</script><br><br>
+
+<script>
+     // Defaul Parameter Array
+
+
+function add(num, a=["Rishi","Sharma"]){
+
+document.write("A= " +a[0]+ "<br>");
+document.write("A= " +a[1]+ "<br>");
+document.write("Num= " +num+ "<br>");
+}
+add(10);
+
+
+</script>
+
+
+
+</body>
+
+
+</html>
