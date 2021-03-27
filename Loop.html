@@ -1,0 +1,27 @@
+	<html>
+<head>
+	<title>For Loop programe</title>
+</head>
+<body>
+	<input type="text" id="table">
+	<button onclick="printTable()">Click</button>
+<script type="text/javascript">
+	
+	function printTable(){
+		var num= parseInt(document.getElementById('table').value);
+		Loop1:
+		for (var i = 16; i >= 1; i--) {
+			console.log(i);
+			if(i==5){
+				continue;
+			}
+			console.log(i);
+			var result=i/num;
+			//console.log(result);
+			
+		}
+	}
+</script>
+</body>
+</html>
+© 2021 GitHub, Inc.
